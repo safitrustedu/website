@@ -9,12 +9,16 @@ const DonateGetInvolvedPage = () => {
       <Helmet>
         <title>Support Us - Safi Benevolent Trust</title>
         <meta name="description" content="Support The Garage School through donations, Zakat, and Sadqa. Help us provide free education and healthcare to the underprivileged." />
+        <link rel="canonical" href="https://safitrust.com/donate" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/donate" />
         <meta property="og:title" content="Support Us - Safi Benevolent Trust" />
         <meta property="og:description" content="Donate to make a difference. 25 years of empowering children through education." />
         <meta property="og:image" content="https://safitrust.com/TGS.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Support Us - Safi Benevolent Trust" />
+        <meta name="twitter:description" content="Donate to make a difference. 25 years of empowering children through education." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       {/* Hero Section */}

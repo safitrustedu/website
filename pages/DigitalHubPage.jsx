@@ -110,6 +110,8 @@ const DigitalHubPage = () => {
         <title>Digital Empowerment Hub - Safi Benevolent Trust</title>
         <meta name="description" content="Bridging the digital divide through skills development and co-working infrastructure. Empowering communities with digital skills for sustainable income." />
 
+        <link rel="canonical" href="https://safitrust.com/digital-hub" />
+
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/digital-hub" />
@@ -119,6 +121,9 @@ const DigitalHubPage = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Digital Empowerment Hub - Safi Benevolent Trust" />
+        <meta name="twitter:description" content="Bridging the digital divide through skills development and co-working infrastructure." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       {/* Hero Section */}

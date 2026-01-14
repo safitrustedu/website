@@ -53,6 +53,8 @@ const HomePage = () => {
         <title>Safi Benevolent Trust - Empowering Communities Through Education</title>
         <meta name="description" content="Safi Benevolent Trust provides free education and community development programs in Karachi. Join us in making a difference." />
 
+        <link rel="canonical" href="https://safitrust.com/" />
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/" />
@@ -61,11 +63,11 @@ const HomePage = () => {
         <meta property="og:image" content="https://safitrust.com/TGS.jpg" />
 
         {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://safitrust.com/" />
-        <meta property="twitter:title" content="Safi Benevolent Trust - Empowering Communities" />
-        <meta property="twitter:description" content="Providing free education and healthcare to underprivileged communities in Karachi since 1999." />
-        <meta property="twitter:image" content="https://safitrust.com/TGS.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://safitrust.com/" />
+        <meta name="twitter:title" content="Safi Benevolent Trust - Empowering Communities" />
+        <meta name="twitter:description" content="Providing free education and healthcare to underprivileged communities in Karachi since 1999." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       <Hero />

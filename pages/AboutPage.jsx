@@ -42,6 +42,8 @@ const AboutPage = () => {
         <title>About Us - Safi Benevolent Trust</title>
         <meta name="description" content="Learn about Safi Benevolent Trust's mission, history, and commitment to providing free education and community development in Karachi." />
 
+        <link rel="canonical" href="https://safitrust.com/about" />
+
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/about" />
@@ -51,6 +53,9 @@ const AboutPage = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us - Safi Benevolent Trust" />
+        <meta name="twitter:description" content="Learn about our mission to provide free education and community development since 1999." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       {/* Hero Section */}

@@ -94,6 +94,8 @@ const TGSPage = () => {
         <title>The Garage School - Safi Benevolent Trust</title>
         <meta name="description" content="The Garage School provides free education to 484+ students across 5 campuses in Karachi. Changing lives through education since 1999." />
 
+        <link rel="canonical" href="https://safitrust.com/tgs" />
+
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/tgs" />
@@ -103,6 +105,9 @@ const TGSPage = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Garage School - Safi Benevolent Trust" />
+        <meta name="twitter:description" content="Free education for 484+ students across 5 campuses in Karachi." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       {/* Hero Section */}

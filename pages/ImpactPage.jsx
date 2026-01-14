@@ -92,6 +92,8 @@ const ImpactPage = () => {
         <title>Our Impact - Safi Benevolent Trust</title>
         <meta name="description" content="See the transformative impact of Safi Benevolent Trust's education and community development programs serving 484+ students and 300+ families." />
 
+        <link rel="canonical" href="https://safitrust.com/impact" />
+
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://safitrust.com/impact" />
@@ -101,6 +103,9 @@ const ImpactPage = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Impact - Safi Benevolent Trust" />
+        <meta name="twitter:description" content="Transforming lives through education, healthcare, and community support." />
+        <meta name="twitter:image" content="https://safitrust.com/TGS.jpg" />
       </Helmet>
 
       {/* Hero Section */}
