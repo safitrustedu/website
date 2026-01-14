@@ -398,6 +398,11 @@ const ImpactPage = () => {
               <span className="font-semibold text-gray-700 group-hover:text-primary transition-colors">Campus Guru</span>
               <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-primary" />
             </a>
+
+            <a href="https://www.bbc.com/storyworks/good-enough-will-never-change-the-world/the-woman-who-started-a-school-in-her-garage-all" target="_blank" rel="noopener noreferrer" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex items-center justify-between group">
+              <span className="font-semibold text-gray-700 group-hover:text-primary transition-colors">BBC</span>
+              <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-primary" />
+            </a>
           </div>
         </div>
       </section>

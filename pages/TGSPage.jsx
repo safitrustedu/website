@@ -93,6 +93,32 @@ const TGSPage = () => {
       <Helmet>
         <title>The Garage School - Safi Benevolent Trust</title>
         <meta name="description" content="The Garage School provides free education to 484+ students across 5 campuses in Karachi. Changing lives through education since 1999." />
+        <meta name="keywords" content="The Garage School, Garage School Karachi, TGS, Free Education Karachi, Safi Benevolent Trust, NGO School Pakistan, Underprivileged Education" />
+
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              "name": "The Garage School",
+              "alternateName": "TGS",
+              "foundingDate": "1999",
+              "description": "The Garage School provides free education to 484+ students across 5 campuses in Karachi.",
+              "url": "https://safitrust.com/tgs",
+              "logo": "https://safitrust.com/tgs-logo.webp",
+              "parentOrganization": {
+                "@type": "NGO",
+                "name": "Safi Benevolent Trust",
+                "url": "https://safitrust.com"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Karachi",
+                "addressCountry": "PK"
+              }
+            }
+          `}
+        </script>
 
         <link rel="canonical" href="https://safitrust.com/tgs" />
 
