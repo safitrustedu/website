@@ -15,7 +15,7 @@ const HomePage = () => {
       title: 'The Garage School',
       description: 'A comprehensive educational institution serving 484+ students across five strategically located campuses, delivering quality academic programs since 1999.',
       icon: GraduationCap,
-      image: '/tgs logo.webp', // Updated to use local image if available or keep external
+      image: '/tgs-logo.webp', // Updated to use local image if available or keep external
       link: '/tgs',
       color: 'from-primary-dark to-primary'
     },
